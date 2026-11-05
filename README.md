@@ -1,6 +1,6 @@
 # Hey, I'm Arushi! 👋
 
-B.Tech student in Artificial Intelligence & Machine Learning.
+B.Tech student in Artificial Intelligence & Machine Learning with minors in Embedded Systems and AI.
 
 I'm interested in understanding how intelligent systems work from the mathematics and architectures behind deep learning models to making them efficient enough to run on actual devices. I spend a lot of time exploring things, implementing ideas, and occasionally falling down research rabbit holes.
 
@@ -8,7 +8,9 @@ I'm interested in understanding how intelligent systems work from the mathematic
 
 ### [HNSW Vector Search in C](https://github.com/arushi-sahay/hnsw-vector-search-c)
 
-An implementation of Hierarchical Navigable Small World (HNSW) for approximate nearest-neighbour search in C. Explores graph construction, vector search, pretrained sentence embeddings, and benchmarking. Originally built to understand the algorithm beyond using an existing library.
+An implementation of Hierarchical Navigable Small World (HNSW) for approximate nearest-neighbour search in C, with graph construction, insertion, search, and a brute-force comparison baseline.
+Benchmarked on deterministic 64-dimensional clustered datasets of up to 1,500 vectors. Achieved Recall@5 of 1.00 at approximately 2.44× the brute-force query speed in one benchmark configuration.
+Also includes a semantic search demonstration using pretrained sentence embeddings.
 
 ### ICME Detection using Machine Learning
 
